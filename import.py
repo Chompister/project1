@@ -20,7 +20,8 @@ def main():
 			print(f"{i} - Title: {title} - Author: {author} - {year}")
 		i += 1
 	db.commit()
-	print(f"Added {i} books to table ´p1_project´.")
+	
+	print(f"\nAdded {i-1} books to table ´p1_project´.")
 
 if __name__ == "__main__":
     main()
